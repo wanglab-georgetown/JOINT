@@ -1,0 +1,7 @@
+anndata>=0.7.1
+scanpy>=1.4.6
+pandas>=1.0.1
+tensorflow>=2.2.0
+numpy>=1.18.1
+scipy>=1.4.1
+scikit_learn>=0.23.2
