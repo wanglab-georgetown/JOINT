@@ -2,6 +2,8 @@
 
 JOINT performs probability-based cell-type identification and DEG analysis simultaneously without the need for imputation. It applies an EM algorithm on a generalized zero-inflated negative binomial mixture model. It supports arbitrary numbers of negative binomial components with and without zero inflation.
 
+There are several editorial errors in the online version of the JOINT paper. The corrected version can be found in `JOINT_2021.pdf` in this repo.
+
 
 ## Installation
 
@@ -86,11 +88,11 @@ deg_known_labels(
 
 ## EM based clustering
 
-A notebook to show how to do EM based clustering can be found at `examples/examples/2celltype_clustering.ipynb`
+A notebook to show how to do EM based clustering can be found at `examples/2celltype_clustering.ipynb`
 
 ## JOINT for clustering and DEG
 
-An example code to show how to use JOINT to do soft clustering and DEG can be found at `examples/examples/2celltype_sim.py`
+An example code to show how to use JOINT to do soft clustering and DEG can be found at `examples/2celltype_sim.py`
 
 ## Reference
 Cui, T., Wang, T. JOINT for large-scale single-cell RNA-sequencing analysis via soft-clustering and parallel computing. BMC Genomics 22, 47 (2021). https://doi.org/10.1186/s12864-020-07302-6
