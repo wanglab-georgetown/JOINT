@@ -1,6 +1,6 @@
-## JOINT
+## JOINT for scRNA-seq
 
-JOINT performs probability-based cell-type identification and DEG analysis simultaneously without the need for imputation. It applies an EM algorithm on a generalized zero-inflated negative binomial mixture model. It supports arbitrary numbers of negative binomial components with and without zero inflation.
+JOINT performs probability-based cell-type identification and DEG analysis for single-cell RNA sequencing (scRNA-seq) simultaneously without the need for imputation. It applies an EM algorithm on a generalized zero-inflated negative binomial mixture model. It supports arbitrary numbers of negative binomial components with and without zero inflation. JOINT performs soft-clustering by computing the probability of individual cells, i.e. each cell can belong to multiple cell types with different probabilities. The EM algorithm is implemented using the TensorFlow deep learning framework and can be run on both CPU and GPU.
 
 There are several editorial errors in the online version of the JOINT paper. The corrected version can be found in `JOINT_2021.pdf` in this repo.
 
@@ -96,3 +96,8 @@ An example code to show how to use JOINT to do soft clustering and DEG can be fo
 
 ## Reference
 Cui, T., Wang, T. JOINT for large-scale single-cell RNA-sequencing analysis via soft-clustering and parallel computing. BMC Genomics 22, 47 (2021). https://doi.org/10.1186/s12864-020-07302-6
+
+## Support and Contribution
+For technical issues particular to this repo, please report the issue on this GitHub repository.
+
+New features, as well as bug fixes, by sending a pull request is always welcomed.
